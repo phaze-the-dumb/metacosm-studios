@@ -179,3 +179,29 @@
         text-align: right;
     }
 }
+
+@media only screen and (max-width: 645px) {
+    .image1{
+        width: calc(100% - 100px);
+    }
+    .image2{
+        top: calc(100% + 1000px);
+        width: calc(100% - 100px);
+    }
+    .about1-title{
+        font-size: 50px;
+    }
+    .about2-title{
+        font-size: 50px;
+    }
+    .about3-title{
+        top: calc(100% + 1800px);
+        font-size: 50px;
+    }
+    .about3{
+        top: calc(100% + 2050px);
+    }
+    .profile-card .profile-title{
+        font-size: 20px;
+    }
+}
