@@ -5,7 +5,6 @@ A fan-made website for [Metacosm Studios](https://www.youtube.com/@MetacosmStudi
 ### Current Todo
 
 - Custom Video Player
-- Meta Tags!!!!!
 
 ### Why Did I Make This?
 
