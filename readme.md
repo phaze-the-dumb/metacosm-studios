@@ -2,6 +2,8 @@
 
 A fan-made website for [Metacosm Studios](https://www.youtube.com/@MetacosmStudios)
 
+![](https://i.phazed.xyz/?i9GAm-1vY7d*U)
+
 ### Current Todo
 
 - Mobile Support (their current website doesn't support mobile either, but it works better than this one on mobile)
