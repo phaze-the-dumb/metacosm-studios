@@ -30,3 +30,13 @@
     color: rgb(118, 191, 255);
     font-size: 25px;
 }
+
+@media only screen and (max-width: 550px) {
+    .about-title{
+        font-size: 50px;
+    }
+    .about{
+        width: calc(100% - 10px);
+        font-size: 18px;
+    }
+}
