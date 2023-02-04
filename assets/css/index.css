@@ -110,3 +110,72 @@
 .profile-card .profile-job{
     font-size: 15px;
 }
+
+@media only screen and (max-width: 1245px) {
+    .image1{
+        left: 50%;
+        translate: -50% 0;
+    }
+
+    .about1-title{
+        top: calc(100% + 650px);
+        left: 50%;
+        translate: -50% 0;
+        width: calc(100% - 60px);
+    }
+    
+    .about1{
+        top: calc(100% + 760px);
+        left: 50%;
+        width: calc(100% - 60px);
+        translate: -50% 0;
+    }
+
+    .image2{
+        top: calc(100% + 900px);
+        left: 50%;
+        translate: -50% 0;
+    }
+
+    .about2-title{
+        top: calc(100% + 1200px);
+        left: 50%;
+        translate: -50% 0;
+        width: calc(100% - 60px);
+    }
+    
+    .about2{
+        top: calc(100% + 1300px);
+        left: 50%;
+        width: calc(100% - 60px);
+        translate: -50% 0;
+    }
+
+    .about3-title{
+        width: calc(100% - 60px);
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .image1{
+        width: calc(75% - 100px);
+    }
+    .image2{
+        width: calc(75% - 100px);
+    }
+    .about3-title{
+        top: calc(100% + 1650px);
+    }
+    .about3{
+        top: calc(100% + 1950px);
+    }
+    .profile-card{
+        width: calc(100% - 50px);
+    }
+    .profile-card img{
+        text-align: left;
+    }
+    .profile-card div{
+        text-align: right;
+    }
+}
