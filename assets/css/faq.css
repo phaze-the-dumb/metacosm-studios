@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+.about-title{
+    position: absolute;
+    top: calc(100% + 500px);
+    left: 50%;
+    color: white;
+    padding: 20px;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    width: calc(100% - 160px);
+    text-align: center;
+    transform: translate(-50%, 0);
+}
+
+.about{
+    position: absolute;
+    top: calc(100% + 600px);
+    left: 50%;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    width: calc(100% - 160px);
+    text-align: center;
+    transform: translate(-50%, 0);
+}
+
+.title{
+    color: rgb(118, 191, 255);
+    font-size: 25px;
+}

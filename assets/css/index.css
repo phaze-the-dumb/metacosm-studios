@@ -1,0 +1,112 @@
+.about1-title{
+    position: absolute;
+    top: calc(100% + 400px);
+    right: 50px;
+    color: white;
+    padding: 20px;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    width: calc(50% - 160px);
+    text-align: center;
+}
+
+.about1{
+    position: absolute;
+    top: calc(100% + 510px);
+    right: 50px;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: black 0 0 10px;
+    width: calc(50% - 160px);
+}
+
+.image1{
+    position: absolute;
+    top: calc(100% + 400px);
+    left: 100px;
+    width: calc(50% - 160px);
+    box-shadow: black 0 0 10px;
+}
+
+.about2-title{
+    position: absolute;
+    top: calc(100% + 900px);
+    left: 50px;
+    color: white;
+    padding: 20px;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    width: calc(50% - 160px);
+    text-align: center;
+}
+
+.about2{
+    position: absolute;
+    top: calc(100% + 1010px);
+    left: 50px;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: black 0 0 10px;
+    width: calc(50% - 160px);
+}
+
+.image2{
+    position: absolute;
+    top: calc(100% + 980px);
+    right: 100px;
+    width: calc(50% - 160px);
+    box-shadow: black 0 0 10px;
+}
+
+.about3-title{
+    position: absolute;
+    top: calc(100% + 1550px);
+    left: 50%;
+    color: white;
+    padding: 20px;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    width: calc(50% - 160px);
+    text-align: center;
+    transform: translate(-50%, 0);
+}
+
+.about3{
+    position: absolute;
+    top: calc(100% + 1850px);
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: calc(100% - 20px);
+    text-align: center;
+}
+
+.profile-card{
+    display: inline-flex;
+    background: black;
+    box-shadow: black 0 0 10px;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.profile-card img{
+    margin-right: 10px;
+    border-radius: 50%;
+    border: white 2px solid;
+}
+
+.profile-card .profile-title{
+    font-size: 25px;
+}
+
+.profile-card .profile-job{
+    font-size: 15px;
+}
