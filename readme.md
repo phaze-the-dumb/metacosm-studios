@@ -8,6 +8,7 @@ A fan-made website for [Metacosm Studios](https://www.youtube.com/@MetacosmStudi
 
 - Mobile Support (their current website doesn't support mobile either, but it works better than this one on mobile)
 - Custom Video Player
+- Meta Tags!!!!!
 
 ### Why Did I Make This?
 
