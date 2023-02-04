@@ -4,7 +4,7 @@ A fan-made website for [Metacosm Studios](https://www.youtube.com/@MetacosmStudi
 
 ### Current Todo
 
-- Mobile Support
+- Mobile Support (their current website doesn't support mobile either, but it works better than this one on mobile)
 - Custom Video Player
 
 ### Why Did I Make This?
