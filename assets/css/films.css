@@ -50,7 +50,7 @@
 
 .film{
     display: inline-block;
-    width: 25%;
+    width: calc(50% - 40px);
     background: black;
     box-shadow: black 0 0 10px;
     color: white;
@@ -67,6 +67,10 @@
 
 .film-name{
     font-weight: 100;
+}
+
+.filmrow{
+    display: flex;
 }
 
 .video-container{
@@ -102,4 +106,39 @@
 video{
     width: 100%;
     height: 100%;
+}
+
+@media only screen and (max-width: 1400px) {
+    .about1-title{
+        font-size: 50px;
+        width: 100%;
+    }
+    .about1{
+        width: calc(100% - 20px);
+    }
+    .films-title{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .filmrow{
+        display: block;
+    }
+    .video-container{
+        width: calc(100% - 10px);
+        top: calc(100% + 900px);
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .film{
+        width: calc(100% - 40px);
+    }
+    .about1-title{
+        top: calc(100% + 400px);
+    }
+    .films-title{
+        font-size: 50px;
+    }
 }
