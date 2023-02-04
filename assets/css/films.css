@@ -28,7 +28,7 @@
 
 .films-title{
     position: absolute;
-    top: calc(100% + 1300px);
+    top: calc(100% + 1500px);
     left: 50%;
     color: white;
     padding: 20px;
@@ -41,7 +41,7 @@
 
 .films-container{
     position: absolute;
-    top: calc(100% + 1600px);
+    top: calc(100% + 1800px);
     left: 50%;
     transform: translate(-50%, 0);
     width: calc(100% - 20px);

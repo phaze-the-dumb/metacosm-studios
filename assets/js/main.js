@@ -107,7 +107,7 @@ let filmInAnim = anime({
     targets: '.film',
     translateY: -150,
     duration: 1000,
-    delay: anime.stagger(50, { start: 1000, grid: [ 4, 2 ], from: 'center' }),
+    delay: anime.stagger(50, { start: 1500, grid: [ 4, 2 ], from: 'center' }),
     easing: 'easeInOutExpo',
     autoplay: false
 })
